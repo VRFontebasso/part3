@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: rgb(38, 91, 235);
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background:rgb(38, 91, 235);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(38, 91, 235);
+}
+
+.textfield > h1{
+    font-weight: 800;
+    margin: 0;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    box-shadow: 70px 90px 90px white;
+}
+
+.textfield > label{
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.textfield > button{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background:black;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px cornsilk;
+    color: cornsilk;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+}
+

@@ -1,0 +1,62 @@
+
+html {
+    background-color: rgb(73, 73, 73);
+   
+  }
+
+  body {
+    background-color: rgb(145, 145, 145);
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px 20px 20px 20px;
+    border: 5px solid rgb(7, 0, 0);
+}
+
+h1, h2{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+nav{
+    text-align: center;
+    background-color: whitesmoke;
+    border: 4px black inset;    
+}
+
+#top{
+    background-image: url(img/GTR\ Capa\ Site.jpg);
+    width: 1350px;
+    height: 400px;
+    background-repeat:repeat;
+}
+
+textarea{
+    text-align: center;
+}
+
+
+.mySlides {display:none;}
+
+#descricao{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid black;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+iframe{
+    width: unset 20px;
+    float:right;
+    padding: 20px 20px 20px 20px;
+}
+
+#grupo{
+    background-color: white;
+}

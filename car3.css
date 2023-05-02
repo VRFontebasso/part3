@@ -1,0 +1,23 @@
+body{
+width: 70%;
+height: 500px;
+margin: 0 auto;
+border: 5px solid rgb(7, 0, 0);
+background-color: rgb(253, 251, 251);
+}
+
+html{
+    background-color: gray;
+}
+nav{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+#grupo{
+    background-color: white;
+}

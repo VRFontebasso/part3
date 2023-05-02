@@ -1,0 +1,60 @@
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: center;
+    background-color: whitesmoke;
+    border: 4px black inset;
+    
+}
+
+#top{
+    background-image: url(img/GTR\ Capa\ Site.jpg);
+    width: 1350px;
+    height: 400px;
+   
+}
+
+body{
+    background-color: grey;
+}
+
+figure img{
+    height: 300px;
+    width: 400px;
+}
+
+figure{
+    padding:10px 10px 40px 10px;
+    background-color: whitesmoke;
+    border: 5px black inset;
+    display: inline-block;
+}
+
+figcaption{
+    text-align: center;
+    
+}
+
+section{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 35px ;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+#grupo{
+    background-color: white;
+}

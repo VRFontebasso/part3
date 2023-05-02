@@ -1,0 +1,87 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+          background-color:black;
+        
+          
+        }
+
+       #titulo {
+           text-align: center;
+           height: 70px;
+           width: 100%;
+           margin: 0 auto;
+           font-family: fantasy;
+       }
+
+       #menu{
+            height: 500px;
+            width: 100px;
+            float: left;
+            text-align: center;
+            
+       }
+       #principal{
+            text-align: center;
+            background-color: white;
+            height: 100%;
+            width: 90%;
+            float: left;
+            border-radius: 20px;
+            border: solid 5px black;
+            
+       }
+
+
+       #lado{
+            float: right;
+            height: 500px;
+            width: 449px;
+            text-align: center;
+       }
+
+       h1,h2,h3,p,li{
+        color: white;
+       }
+
+       #text{
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+       }
+
+       .text > h1{
+        text-align: center;
+       }
+
+       .text > p{
+        margin: 2%;
+       }
+ 
+       .python{
+        margin: 2%;
+       }
+
+       .python > h1{
+        text-align: center;
+       }
+
+       .rodape{
+          background-color: white;
+          border-radius: 20px;
+          border: 3px solid black;
+          box-shadow: 10px 10px 60px rgb(38, 91, 235);
+       }
+
+       .rodape > p{
+          color: black;
+       }
+
+  

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/magic tree-amico.png" type="image/png/">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="pag2.css">
+
+    <title>Meu mundo</title>
+    
+</head>
+<body>
+
+    <div id="titulo">
+        <h1>Oportunidade de estágio em: Análise e desenvolvimento de sistemas</h1>
+    </div>
+
+    <div id="menu" >
+        <br/>
+        <a href="index.html" target="_blank"> <button> &ensp; Home &ensp; </button></a><br/><br/>
+        <a href="https://www.linkedin.com/in/vin%C3%ADcius-rodrigues-fontebasso-420b6b26b" target="_blank" > <button> LinkedIn</button></a><br/><br/>
+        <a href="https://wa.me/5511961887553" ><button>Whatsapp</button></a><br/><br/>
+        <a href=""><button>&ensp;Site 1&emsp;</button></a><br/><br/>
+        <a href=""><button>&ensp;Site 2&emsp;</button></a><br/><br/>
+        <a href=""><button>&ensp;Site 3&emsp;</button></a><br/><br/>
+        <a href=""><button>&ensp;Site 4&emsp;</button></a>
+
+    </div>
+    <div id="principal" >
+        <h2 style="color: black;"> &ensp; Vinícius Rodrigues Fontebasso</h2>
+        <hr>
+        <p style="color: black;" >Com responsabilidade e dedicação busco uma oportunidade
+        de começar a trabalhar com desenvolvimento e manutenção de 
+        programas e sistemas.</p>
+       <object data="curri.html" width="100%" height="350px" ></object>
+    
+    </div>
+
+    <div id="lado" >
+        <h1>Conhecimentos:</h1>
+        <div class="w3-content w3-display-container" >
+            <img class="mySlides" src="img/font.png" style="width:100%" >
+            <img class="mySlides" src="img/binario-removebg-preview.png" style="width:80%">
+            <img class="mySlides" src="img/Python-01-removebg-preview.png" style="width: 100%;" >
+            
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            <!--Botão direita e esquerda slide-->            
+        </div>
+        
+        <!--COD SLIDER movimentação -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+        
+    <video src="img/Design sem nome (2).mp4" controls="controls" type="video/mp4" width="90%" height="95%" ></video>
+        
+    </div>
+    
+    <div class="text">
+        
+        <h1>Experiência:</h1>
+        <p> Estágio de jovem aprendiz durante o ensino médio e
+            efetivação após a formatura totalizando quatro anos na empresa Incane Despachante,
+            responsável pela parte de cobrança e conferência de processos veiculares, criação e alimentação de planilhas
+            Excel e envio de e-mail via Outlook. Conhecimento com
+            manutenção de painéis, ciclomotores elétricos (trifoot).
+            Criação de designe (Canva) para microempresas, gerenciamento das páginas Facebook
+            e Instagram, criação de web site (Wordpress e Visual Studio).</p>
+    </div>  
+    <div class="python" >
+        <hr>
+        <h1>Python</h1>
+        <p>Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.</p>
+        <br/>
+        <h3>Estudo e aplicação de:</h3>
+        <ul>
+            <li>Metodologias ágeis</li>
+            <li>Backlog</li>
+            <li>Scrum Master</li>
+            <li>Hardware</li>
+            <li>Assembly</li>
+            <li>Código Binário</li>
+        </ul>
+    </div>
+    <div class="rodape" >
+    <p>Site desenvolvido por: Vinícius Rodrigues Fontebasso</p>
+    <p>Contato: (11) 96188-7553</p>
+    </div>
+    </body>
+    </html>
